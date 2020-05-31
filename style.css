@@ -1,0 +1,72 @@
+    html{
+    background-color: rgb(115, 216, 241);
+}
+
+.btn{
+
+    position: absolute;
+    left:81%;
+    top:20px;
+    width: 80px;
+    height: 80px;
+    border:none;
+    background: rgba(255, 255, 255,0);
+    font-size: 25px;
+
+
+}
+
+.btn1{
+
+    position: absolute;
+    left:90%;
+    top:20px;
+    width: 80px;
+    height: 80px;
+    border : none;
+    background: rgba(255, 255, 255,0);
+
+}
+
+.btn:hover,.btn1:hover {
+    background-color: rgb(101, 158, 146);
+}
+
+#container{
+
+    position: absolute;
+    top:0px;
+    left:0px;
+    
+    width:100%;
+    height: 120px;
+}
+
+h1{
+    color : yellow;
+    font-size: smaller;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+.fa-home{
+    color: white !important;
+}
+.fa-ellipsis-v{
+    color: white !important;
+}
+
+
+p {
+    
+    background: Transparent;
+    background-repeat:no-repeat;
+    border: 5px solid green;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
